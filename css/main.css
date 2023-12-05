@@ -95,6 +95,10 @@ a {
 
 .logo {
   height: 40px;
+  -webkit-user-select: none; /* Safari, Chrome, and newer versions of Opera */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 
 .header .b-menu {
